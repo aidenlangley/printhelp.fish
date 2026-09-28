@@ -1,6 +1,6 @@
 function printhelp --description 'Helps build -h/--help messages for fish functions'
     set __name (string split '.' (basename (status -f)))[1]
-    set __version '0.1.1'
+    set __version '0.1.2'
     set __description 'Helps build -h/--help messages for fish functions'
 
     set opts (fish_opt --short d --long debug)
